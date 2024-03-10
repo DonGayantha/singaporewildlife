@@ -286,3 +286,67 @@ main p {
 
 
 }
+.dropdown {
+    position: relative;
+    /* display: inline-block; */
+    padding: 20px;
+    text-align: center;
+    /* color: #fdfdfd; */
+    background-color: rgba(0, 0, 0, 0.505);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.dropdown-content {
+    display: none;
+    /* position: relative; */
+    background-color: #fbfbfb29;
+    min-width: 160px;
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    z-index: 1;
+    /* width: 200px; */
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.dropdown-content a {
+    color: rgb(255, 253, 253);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+   
+}
+
+.dropdown-content a:hover {
+    background-color: #514040;
+    border-radius: 50px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #cee87343;
+    border-radius: 20px;
+}
+
+.dropdown1 {
+    position: relative;
+    /* display: inline-block; */
+    padding: 20px;
+    text-align: center;
+    /* color: #fdfdfd; */
+    /* background-color: rgba(0, 0, 0, 0.505); */
+    border-radius: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+.dropbtn {
+    border-radius: 30px;
+    background-color: #d3767647;
+    color: #fdfdfd;
+
+}
