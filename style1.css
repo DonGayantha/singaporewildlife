@@ -350,3 +350,35 @@ main p {
     color: #fdfdfd;
 
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+ 
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+
+  
+ 
+  .fa-facebook {
+    background: #2a2dda;
+    color: white;
+  }
+  
+ 
+  .fa-instagram {
+    background: #ec28dc;
+    color: white;
+  }
+
+  .fa-youtube {
+    background: #d73030;
+    color: white;
+  }
